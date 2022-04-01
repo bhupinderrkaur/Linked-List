@@ -1,7 +1,6 @@
 class Solution {
     //Using hashmap
     public static boolean detectLoop(Node head){
-        // Add code here
         Map<Node,Integer> map=new HashMap<>();
         while(head!=null){
             
@@ -15,7 +14,6 @@ class Solution {
   //using slow fast pointers
 
   public static boolean detectLoop(Node head){
-        // Add code here
         Node slow, fast;
         slow = fast = head;
     
